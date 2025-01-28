@@ -1,5 +1,6 @@
 <template>
     <div class="MapSection">
+        <FirstSection style="display: none;" class="FirstSectionLocalization"></FirstSection>
         <img src="../../../assets/Maps.png" class="Mapa" @click="GoToMaps">
         <TextoSection></TextoSection>
     </div>
@@ -7,10 +8,12 @@
   
   <script>
   import TextoSection from './TextoSection.vue';
+  import FirstSection from '../FirstSection/FirstSection.vue';
   export default {
     name: 'MapSection',
     components:{
-        TextoSection
+        TextoSection,
+        FirstSection
     },
     methods:{
         GoToMaps(){
@@ -45,6 +48,33 @@
         filter: brightness(92%)
     }
 
+    @media screen and (max-width: 768px){
+        .FirstSectionLocalization{
+            display: flex !important;
+        }
+        .MapSection{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background: none;
+        font-family: Roboto, sans-serif;
+    }
+
+    .Mapa{
+        box-shadow: 10px 10px 15px rgba(0.2, 0.2, 0.5, 0.2);
+        height: auto;
+        margin-left: 4vw;
+        margin-top: 6vw;
+        width: 92vw;
+        border: solid 0.3vw #113157;
+        border-radius: 2vw;
+        cursor: pointer;
+    }
+    .Mapa:hover{
+        filter: brightness(92%)
+    }
+    }
 
   </style>
   

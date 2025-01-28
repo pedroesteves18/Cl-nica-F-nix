@@ -93,5 +93,44 @@
         font-size: 4vw;
     }
 
+    @media (max-width: 768px){
+        .TotalEmotes{
+        margin-top: 3vw;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5vw;
+    }
+
+    .linhaEmotes{
+        display: flex;
+        flex-direction:row;
+        font-size: 2vw;
+        font-weight: 400;
+        color: white;
+        gap: 1.5vw;
+    }
+    .conjunto{
+        display: flex;
+        width: 15vw;
+        height: 15vw;
+        flex-direction: column-reverse;
+        border: solid 0.4vw white;
+        padding: 0.2vw;
+        border-radius: 2vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .textoEmote{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .item1{
+        font-size: 7vw;
+        }
+    }
+
   </style>
   

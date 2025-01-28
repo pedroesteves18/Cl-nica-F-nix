@@ -37,7 +37,28 @@
     .textoFourth{
       font-size: 1.7vw;
     }
+    @media screen and (max-width: 768px) {
+        .TextoFourthSection{
+          height: auto;
+          display: flex;
+          margin-left: 5vw;
+          margin-top: 3vw;
+          margin-right: 4vw;
+          flex-direction: column;
+          color: #113157;
+          font-family: Roboto, sans-serif;
+          
+      }
+      .TituloFourth{
+          font-weight: bold;
+          font-size: 4vw;
+      }
 
+      .textoFourth{
+        font-size: 2.1vw;
+      }
+
+    }
 
   </style>
   

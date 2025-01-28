@@ -59,5 +59,33 @@
         display: flex;
         flex-direction: row;
     }
+
+    @media (max-width: 768px) {
+        .centro{
+            color: white;
+            font-family: Georgia, serif;
+            padding-top: 5vw;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 2vw;
+
+        }
+        .ImagemExame{
+            width:86vw;
+            height: auto;
+            border-radius: 3vw;
+            box-shadow: 1vw 1vw 1vw rgba(0.2, 0.2, 0.5, 0.2);
+            margin-left: 6vw;
+        }
+
+        .iconesEtexto{
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 5vw;
+        }
+    }
   </style>
   

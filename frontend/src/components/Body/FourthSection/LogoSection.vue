@@ -25,6 +25,13 @@
         width: 20vw;
     }
 
+    @media screen and (max-width: 768px) {
 
+      .logoFenix{
+          height: auto;
+          width: 25vw;
+          margin-top: 6vw;
+      }
+    }
   </style>
   

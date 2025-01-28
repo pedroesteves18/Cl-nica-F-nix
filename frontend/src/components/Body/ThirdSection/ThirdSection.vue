@@ -34,5 +34,12 @@
         background-color: #113157;
     }
 
+    @media (max-width: 768px) {
+        .ThirdSection{
+            background: none;
+        }
+
+    }
+
   </style>
   

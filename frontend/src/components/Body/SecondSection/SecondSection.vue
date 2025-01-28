@@ -4,10 +4,10 @@
                 <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"
                     :linkFace="facebookLink1"
                     :linkInsta="instaLink1"/>
-                <IconMédico :image="drClenir" nomeMédico="Dra. Clenir Cioffi" especializaçãoMédico="Biomedicina estética"
+                <IconMédico :image="drClenir" nomeMédico="Dra.Clenir Cioffi " especializaçãoMédico="Biomedicina estética"
                 :linkFace="facebookLink2"
                 :linkInsta="instaLink2"/>
-                <IconMédico :image="drLucas" nomeMédico="Dr. Lucas Martins Massari " especializaçãoMédico="Cardiologia"/>
+                <IconMédico :image="drLucas" nomeMédico="Dr.Lucas Martins " especializaçãoMédico="Cardiologia"/>
             </div>
             <div class="linha">
                 <IconMédico :image="drPaulo" nomeMédico="Dr.Paulo Barbieri " especializaçãoMédico="Ortopedia"/>
@@ -16,6 +16,33 @@
             </div>
             <div class="linha">
                 <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"/>
+                <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"/>
+                <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"/>
+            </div>
+    </div>
+
+    <div class="SecondSectionCelular" style="display: none;">
+            <div class="linha">
+                <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"
+                    :linkFace="facebookLink1"
+                    :linkInsta="instaLink1"/>
+                <IconMédico :image="drClenir" nomeMédico="Dra.Clenir Cioffi" especializaçãoMédico="Biomedicina estética"
+                    :linkFace="facebookLink2"
+                    :linkInsta="instaLink2"/>
+            </div>
+            <div class="linha">
+                <IconMédico :image="drLucas" nomeMédico="Dr.Lucas Martins " especializaçãoMédico="Cardiologia"/> 
+                <IconMédico :image="drPaulo" nomeMédico="Dr.Paulo Barbieri " especializaçãoMédico="Ortopedia"/>
+            </div>
+            <div class="linha">
+                <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"/>
+                <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"/>
+            </div>
+            <div class="linha">
+                <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"/>
+                <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"/>
+            </div>
+            <div class="linha">
                 <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"/>
                 <IconMédico :image="drCleibe" nomeMédico="Dr.Cleibe Nicácio " especializaçãoMédico="Gastroenterologia e Videolaparoscopia"/>
             </div>
@@ -70,5 +97,24 @@
         height: auto;
     }
 
+    @media (max-width: 768px){
+    .SecondSection{
+        display: none;
+    }
+    .SecondSectionCelular{
+        padding-bottom: 15vw;
+        margin-top: -6vw;
+        display: flex !important;
+        flex-direction: column;
+        margin-left: -2vw;
+    }
+
+    .linha{
+        margin-bottom: -10vw;
+        display: flex;
+        justify-content: center;
+        gap: 1vw;
+    }
+    }
   </style>
   

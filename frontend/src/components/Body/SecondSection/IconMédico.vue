@@ -108,5 +108,70 @@
         height: auto;
     }
 
+
+
+    @media (max-width: 768px){
+        .linksMedico {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-right: 2vw;
+    }
+    .linkInsta {
+        color: #113157;
+        font-size: 5vw;
+        margin-left: 0.5vw;
+    }
+    .linkFace{
+        color: #113157;
+        font-size: 5vw;
+    }
+
+    .especialização{
+        padding-top: 0vw;
+        padding-bottom: 0.8vw;
+        display: flex;
+        font-size: 2.6vw;
+        padding-bottom: 3vw;
+    }
+
+
+    .nomeMédico{
+        font-size: 3vw;
+        padding-top: 1vw;
+        margin-left: 16vw;
+    }
+
+    .cardMédico{
+        position: relative;
+        width: 70vw;
+        color: #113157;
+    }
+
+    .IconMédico{
+        margin-left: 10vw;
+        width:auto;
+        height: auto;
+        border-radius: 3vw;
+        box-shadow: 1px 7px 15px 2px rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .containerFoto{
+        position: relative;
+        width: 22vw;
+        height: 17vw;
+        border-radius: 3vw;
+        overflow: hidden;
+        border: solid 0.2vw #113157;
+        
+    }
+    .fotoMédico{
+        width: 100%;
+        height: auto;
+    }
+    }
+
   </style>
   

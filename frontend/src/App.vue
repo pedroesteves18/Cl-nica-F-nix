@@ -10,15 +10,11 @@ export default {
 
 <style>
 body, html {
-  width: auto;
+  width: 99.11vw;
   height: auto;
   margin: 0;
   padding: 0;
   font-family: 'Playfair Display', serif;
 }
 
-.app {
-  width: auto;
-  height: auto;
-}
 </style>
