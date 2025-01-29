@@ -8,8 +8,9 @@
             <div class="nomeMédico">{{ nomeMédico }}</div> 
             <div class="especialização">{{ especializaçãoMédico }}</div>
             <div class="linksMedico">
-                <a :href="linkFace"><i class="linkFace bi-facebook"></i></a>
-                <a :href="linkInsta"><i class="linkInsta bi-instagram"></i></a>
+                <a v-if="linkFace" :href="linkFace"><i class="linkFace bi-facebook"></i></a>
+
+                <a v-if="linkInsta" :href="linkInsta"><i class="linkInsta bi-instagram"></i></a>
             </div>
         </div>
     </div>
@@ -55,7 +56,7 @@
     .linkInsta {
         color: #113157;
         font-size: 2vw;
-        margin-left: 10%;
+        margin-left: 0.5vw;
     }
     .linkFace{
         color: #113157;
@@ -63,18 +64,20 @@
     }
 
     .especialização{
-        padding-top: 5%;
-        margin-left: 45%;
         height: 5vw;
+        width: 10vw;
+        margin-right: 2vw;
     }
 
 
     .nomeMédico{
-        padding-top: 5%;
-        margin-left: 45%;
+        padding-top: 1vw;
+        margin-right: 4vw;
+        min-width: 8vw;
     }
 
     .cardMédico{
+        justify-content: space-between;
         position: relative;
         width: 21vw;
         font-family: "Brush Script MT", cursive;
@@ -83,28 +86,31 @@
     }
 
     .IconMédico{
-        margin-left: 25%;
-        width: 100%;
+        margin-left: 5vw;
+        min-width: 22vw;
         height: 11vw;
-        border-radius: 10%;
+        border-radius: 2vw;
         box-shadow: 1px 7px 15px 2px rgba(0, 0, 0, 0.5);
         display: flex;
+        gap: 1vw;
+        align-items: flex-end;
+        justify-content: center;
         flex-direction: column;
     }
 
     .containerFoto{
         position: relative;
-        top: 37%;
-        left: 7%;
-        width: 60%;
-        height: 40%;
-        border-radius: 10%;
+        top: 9vw;
+        left: 1.7vw;
+        width: 12.5vw;
+        height: 10vw;
+        border-radius: 1vw;
         overflow: hidden;
         border: solid 0.2vw #113157;
         
     }
     .fotoMédico{
-        width: 100%;
+        width: 13vw;
         height: auto;
     }
 
@@ -115,12 +121,10 @@
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
-        margin-right: 2vw;
     }
     .linkInsta {
         color: #113157;
         font-size: 5vw;
-        margin-left: 0.5vw;
     }
     .linkFace{
         color: #113157;
@@ -128,38 +132,40 @@
     }
 
     .especialização{
-        padding-top: 0vw;
-        padding-bottom: 0.8vw;
         display: flex;
         font-size: 2.6vw;
-        padding-bottom: 3vw;
+        margin-right: 4vw;
+        min-height: 6vw;
+        width: 19vw;
+        margin-bottom: 3vw;
     }
 
 
     .nomeMédico{
         font-size: 3vw;
         padding-top: 1vw;
-        margin-left: 16vw;
     }
 
     .cardMédico{
         position: relative;
-        width: 70vw;
+        width: auto;
         color: #113157;
     }
 
     .IconMédico{
         margin-left: 10vw;
-        width:auto;
+        width: 38vw;
         height: auto;
         border-radius: 3vw;
         box-shadow: 1px 7px 15px 2px rgba(0, 0, 0, 0.5);
         display: flex;
         flex-direction: column;
+        align-items: flex-end;
     }
 
     .containerFoto{
         position: relative;
+        top: 12vw;
         width: 22vw;
         height: 17vw;
         border-radius: 3vw;
@@ -168,7 +174,7 @@
         
     }
     .fotoMédico{
-        width: 100%;
+        width: 22vw;
         height: auto;
     }
     }

@@ -38,7 +38,7 @@
         .logo{
           margin-left: 5vw;
           border-radius: 50vw;
-          border: solid 0.15vw #CF1F29;
+          border: solid 0.50vw #CF1F29;
         }
         .img {
           width: 17vw;

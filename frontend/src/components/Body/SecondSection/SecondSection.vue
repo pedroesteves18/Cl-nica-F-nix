@@ -79,42 +79,33 @@
   
   <style>
     .SecondSection{
-        margin-top: -6%;
+        margin-top: -6vw;
         margin-bottom: 10vw;
-        width: 100%;
+        width: 100vw;
         height: auto;
         display: flex;
         flex-direction: column;
-        margin-left: -4%;
+        margin-left: -4vw;
     }
 
     .linha{
-        margin-bottom: -10%;
+        margin-bottom: -8vw;
         display: flex;
         justify-content: center;
-        gap: 6%;
-        width: 100%;
-        height: auto;
+        gap: 6vw;
     }
 
     @media (max-width: 768px){
-    .SecondSection{
-        display: none;
-    }
-    .SecondSectionCelular{
-        padding-bottom: 15vw;
-        margin-top: -6vw;
-        display: flex !important;
-        flex-direction: column;
-        margin-left: -2vw;
-    }
-
-    .linha{
-        margin-bottom: -10vw;
-        display: flex;
-        justify-content: center;
-        gap: 1vw;
-    }
+        .SecondSection{
+            display: none;
+        }
+        .SecondSectionCelular{
+            padding-bottom: 15vw;
+            margin-top: -6vw;
+            display: flex !important;
+            flex-direction: column;
+            margin-left: -2vw;
+        }
     }
   </style>
   
