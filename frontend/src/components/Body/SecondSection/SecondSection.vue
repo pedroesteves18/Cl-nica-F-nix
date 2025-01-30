@@ -13,7 +13,7 @@
                 <IconMédico :image="drPaulo" nomeMédico="Dr.Paulo Barbieri " especializaçãoMédico="Ortopedista"/>
                 <IconMédico :image="drAndre" nomeMédico="Dr.André Alves " especializaçãoMédico="Infectologista"
                 :linkInsta="instaLink4"/>
-                <IconMédico :image="draJuliana" nomeMédico="Dra.Juliana Piacente " especializaçãoMédico="Dermatologista,Tricologista e Implante Capilar"
+                <IconMédico :image="draJuliana" nomeMédico="Dra.Juliana Piacente " especializaçãoMédico="Dermatologista, Tricologista e Implante Capilar"
                 :linkInsta="instaLink3"/>
             </div>
             <div class="linha">
