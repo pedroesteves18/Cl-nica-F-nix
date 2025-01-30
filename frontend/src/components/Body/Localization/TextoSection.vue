@@ -4,7 +4,7 @@
           Matão - SP, CEP 15990-110.</div>
         </div>
         <div class="TextoLocalization">
-          <strong>Encontre-nos com facilidade:</strong> 
+          <strong>Encontre-nos com facilidade, <br> <strong>ACESSANDO</strong> pelo mapa ou endereço:</strong> 
         </div>
     </div>
   </template>

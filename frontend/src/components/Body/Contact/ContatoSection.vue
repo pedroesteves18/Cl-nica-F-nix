@@ -2,8 +2,8 @@
     <div class="ContatoSection">
         <img class="Agenda" src="../../../assets/Contato.png">
         <div class="AgendamentoSection">
-            <div class="TextoContato"><strong>Acesse nosso Whatsapp</strong><br>e agende sua consulta de forma<br> <strong>fácil e rápida</strong></div>
-            <i class="bi-whatsapp"></i> (16) 99340-0898<br>
+            <div class="TextoContato"><strong>Acesse nosso Whatsapp</strong><br>clicando no<strong> ícone </strong>e agende <br>sua consulta de forma<br> <strong>fácil e rápida</strong></div>
+            <a href="https://api.whatsapp.com/send?phone=5516993400898&text=Olá%2C%20eu%20gostaria%20de%20falar%20com%20uma%20Secretária."><i class="bi-whatsapp"></i></a> (16) 99340-0898<br>
             <i class="bi-telephone"></i> (16) 3382-2692<br>
             <div style="margin-left: 2.6vw"> (16) 3382-7872</div>
         </div>
@@ -14,7 +14,7 @@
             <img class="Agenda" src="../../../assets/Contato.png">
         </div>
         <div class="AgendamentoSection">
-            <div class="TextoContato"><strong>Acesse nosso Whatsapp</strong><br>e agende sua consulta de forma<br> <strong>fácil e rápida</strong></div>
+            <div class="TextoContato"><strong>Acesse nosso Whatsapp</strong><br>e agende sua consulta de forma<br> <strong>fácil e rápida</strong> clicando no <strong>ícone</strong></div>
             <i class="bi-whatsapp"></i> (16) 99340-0898<br>
             <i class="bi-telephone"></i> (16) 3382-2692<br>
             <div style="margin-left: 5.6vw"> (16) 3382-7872</div>

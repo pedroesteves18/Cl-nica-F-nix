@@ -21,6 +21,7 @@
         <div class="icons">
           <a href="https://www.instagram.com/drcleibenicacio.cirurgiao/"><i class="instagram bi-instagram"></i></a>
           <a href="https://www.facebook.com/clinicafenixmatao?locale=pt_BR"><i class="facebook bi-facebook"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5516993400898&text=Olá%2C%20eu%20gostaria%20de%20falar%20com%20uma%20Secretária."><i class="facebook bi-whatsapp"></i></a>
         </div>
         
     </div>
@@ -71,12 +72,12 @@
           margin-right: 3vw;
           padding-left: 3vw;
           font-size: 3.3vw;
-          gap: 4vw;
+          gap: 2vw;
           margin-bottom: 2vw;
         }
         .barra {
           height: 12vw;
-          padding: 0.05vw;
+          padding: 0.2vw;
         }
         .icons{
           gap: 4vw;

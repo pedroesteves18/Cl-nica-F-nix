@@ -65,15 +65,17 @@
 
     .especialização{
         height: 5vw;
-        width: 10vw;
-        margin-right: 2vw;
+        width: 12vw;
+        display: flex;
+        justify-items: flex-start;
     }
 
 
     .nomeMédico{
         padding-top: 1vw;
-        margin-right: 4vw;
-        min-width: 8vw;
+        width: 12vw;
+        display: flex;
+        justify-items: flex-start;
     }
 
     .cardMédico{
@@ -120,7 +122,9 @@
         .linksMedico {
         display: flex;
         align-items: flex-end;
+        min-height: 6vw;
         justify-content: flex-end;
+        margin-right: 2vw;
     }
     .linkInsta {
         color: #113157;
@@ -132,35 +136,37 @@
     }
 
     .especialização{
+        width: 24vw;
         display: flex;
-        font-size: 2.6vw;
-        margin-right: 4vw;
-        min-height: 6vw;
-        width: 19vw;
-        margin-bottom: 3vw;
+        justify-items: flex-start;
     }
 
 
     .nomeMédico{
-        font-size: 3vw;
         padding-top: 1vw;
+        width: 24vw;
+        display: flex;
+        justify-items: flex-start;
     }
 
     .cardMédico{
+        justify-content: space-between;
         position: relative;
-        width: auto;
+        width: 21vw;
+        font-family: 'Times New Roman', Times, serif;
         color: #113157;
+        font-size: 2vw;
     }
 
     .IconMédico{
-        margin-left: 10vw;
+        margin-left: 11vw;
         width: 38vw;
-        height: auto;
+        height: 18vw;
         border-radius: 3vw;
         box-shadow: 1px 7px 15px 2px rgba(0, 0, 0, 0.5);
-        display: flex;
-        flex-direction: column;
         align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .containerFoto{
